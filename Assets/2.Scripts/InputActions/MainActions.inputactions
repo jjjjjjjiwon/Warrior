@@ -1,0 +1,51 @@
+{
+    "name": "MainActions",
+    "maps": [
+        {
+            "name": "Playerctrl",
+            "id": "d3679245-b926-4ba7-9639-50f8932d292f",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "819084c4-fab9-4d4f-91fd-4d6d9d125e99",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "aad92258-3b23-4de8-b636-949b4ce94abd",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "PC",
+            "bindingGroup": "PC",
+            "devices": [
+                {
+                    "devicePath": "<Mouse>/{Back}",
+                    "isOptional": false,
+                    "isOR": false
+                },
+                {
+                    "devicePath": "<Keyboard>/{Back}",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
